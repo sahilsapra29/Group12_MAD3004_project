@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9B698B63210A60EC0074604D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B698B62210A60EC0074604D /* main.swift */; };
+		9B698B6B210A626E0074604D /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B698B6A210A626E0074604D /* Vehicle.swift */; };
+		9B698B6D210A6FE50074604D /* car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B698B6C210A6FE50074604D /* car.swift */; };
+		9B698B6F210A6FF40074604D /* motorcycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B698B6E210A6FF40074604D /* motorcycle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		9B698B5F210A60EC0074604D /* Group12_MAD3004_project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Group12_MAD3004_project; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B698B62210A60EC0074604D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9B698B6A210A626E0074604D /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		9B698B6C210A6FE50074604D /* car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = car.swift; sourceTree = "<group>"; };
+		9B698B6E210A6FF40074604D /* motorcycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motorcycle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,20 @@
 		9B698B61210A60EC0074604D /* Group12_MAD3004_project */ = {
 			isa = PBXGroup;
 			children = (
+				9B698B69210A62540074604D /* Classes */,
 				9B698B62210A60EC0074604D /* main.swift */,
 			);
 			path = Group12_MAD3004_project;
+			sourceTree = "<group>";
+		};
+		9B698B69210A62540074604D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9B698B6A210A626E0074604D /* Vehicle.swift */,
+				9B698B6C210A6FE50074604D /* car.swift */,
+				9B698B6E210A6FF40074604D /* motorcycle.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +136,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B698B6F210A6FF40074604D /* motorcycle.swift in Sources */,
+				9B698B6B210A626E0074604D /* Vehicle.swift in Sources */,
+				9B698B6D210A6FE50074604D /* car.swift in Sources */,
 				9B698B63210A60EC0074604D /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
