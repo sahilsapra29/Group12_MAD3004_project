@@ -7,3 +7,16 @@
 //
 
 import Foundation
+
+class Motorcycle: Vehicle {
+    
+    override init() {
+        super.init()
+        super.type = .MOTORCYCLE
+    }
+    
+    override init?(dict: [String: Any]) {
+        super.init(dict: dict)
+        super.type = .MOTORCYCLE
+    }
+}
