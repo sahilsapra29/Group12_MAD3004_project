@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1704F8BF210D1A41001F01D4 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1704F8BE210D1A41001F01D4 /* Employee.swift */; };
+		1704F8C1210D1B0A001F01D4 /* PartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1704F8C0210D1B0A001F01D4 /* PartTime.swift */; };
+		1704F8C3210D1B80001F01D4 /* FullTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1704F8C2210D1B80001F01D4 /* FullTime.swift */; };
+		1704F8C7210D1C30001F01D4 /* CommissionBasedPartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1704F8C6210D1C30001F01D4 /* CommissionBasedPartTime.swift */; };
 		9B698B63210A60EC0074604D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B698B62210A60EC0074604D /* main.swift */; };
 		9B698B6B210A626E0074604D /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B698B6A210A626E0074604D /* Vehicle.swift */; };
 		9B698B6D210A6FE50074604D /* car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B698B6C210A6FE50074604D /* car.swift */; };
@@ -27,6 +31,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1704F8BE210D1A41001F01D4 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		1704F8C0210D1B0A001F01D4 /* PartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartTime.swift; sourceTree = "<group>"; };
+		1704F8C2210D1B80001F01D4 /* FullTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullTime.swift; sourceTree = "<group>"; };
+		1704F8C6210D1C30001F01D4 /* CommissionBasedPartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommissionBasedPartTime.swift; sourceTree = "<group>"; };
 		9B698B5F210A60EC0074604D /* Group12_MAD3004_project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Group12_MAD3004_project; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B698B62210A60EC0074604D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9B698B6A210A626E0074604D /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
@@ -46,6 +54,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1704F8C4210D1BA6001F01D4 /* Vehicle */ = {
+			isa = PBXGroup;
+			children = (
+				9B698B6E210A6FF40074604D /* motorcycle.swift */,
+				9B698B6C210A6FE50074604D /* car.swift */,
+				9B698B6A210A626E0074604D /* Vehicle.swift */,
+			);
+			path = Vehicle;
+			sourceTree = "<group>";
+		};
+		1704F8C5210D1BF8001F01D4 /* PartTime */ = {
+			isa = PBXGroup;
+			children = (
+				1704F8C6210D1C30001F01D4 /* CommissionBasedPartTime.swift */,
+			);
+			path = PartTime;
+			sourceTree = "<group>";
+		};
 		9B698B56210A60EB0074604D = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +91,8 @@
 		9B698B61210A60EC0074604D /* Group12_MAD3004_project */ = {
 			isa = PBXGroup;
 			children = (
+				1704F8C5210D1BF8001F01D4 /* PartTime */,
+				1704F8C4210D1BA6001F01D4 /* Vehicle */,
 				9B698B69210A62540074604D /* Classes */,
 				9B698B62210A60EC0074604D /* main.swift */,
 			);
@@ -74,9 +102,9 @@
 		9B698B69210A62540074604D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9B698B6A210A626E0074604D /* Vehicle.swift */,
-				9B698B6C210A6FE50074604D /* car.swift */,
-				9B698B6E210A6FF40074604D /* motorcycle.swift */,
+				1704F8BE210D1A41001F01D4 /* Employee.swift */,
+				1704F8C0210D1B0A001F01D4 /* PartTime.swift */,
+				1704F8C2210D1B80001F01D4 /* FullTime.swift */,
 				9B8A27B5210BB3F6007D4D2C /* iPrintable.swift */,
 			);
 			path = Classes;
@@ -140,7 +168,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B698B6F210A6FF40074604D /* motorcycle.swift in Sources */,
+				1704F8BF210D1A41001F01D4 /* Employee.swift in Sources */,
 				9B698B6B210A626E0074604D /* Vehicle.swift in Sources */,
+				1704F8C3210D1B80001F01D4 /* FullTime.swift in Sources */,
+				1704F8C1210D1B0A001F01D4 /* PartTime.swift in Sources */,
+				1704F8C7210D1C30001F01D4 /* CommissionBasedPartTime.swift in Sources */,
 				9B698B6D210A6FE50074604D /* car.swift in Sources */,
 				9B8A27B6210BB3F6007D4D2C /* iPrintable.swift in Sources */,
 				9B698B63210A60EC0074604D /* main.swift in Sources */,
