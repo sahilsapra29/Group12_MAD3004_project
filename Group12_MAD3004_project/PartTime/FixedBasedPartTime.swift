@@ -1,5 +1,5 @@
 //
-//  CommissionBasedPartTime.swift
+//  FixedBasedPartTime.swift
 //  Group12_MAD3004_project
 //
 //  Created by prem on 2018-07-28.
@@ -8,19 +8,19 @@
 
 import Foundation
 
-class CommissionBasedPartTime: PartTime
+class FixedBasedPartTime: PartTime
 {
-    var CommissionPerc: Float!
+    var FixedAmount: Float!
     
-    init(empName: String, empAge: Int, Rate: Float, HoursWorked: Float, CommissionPerc: Float)
+    init(empName: String, empAge: Int, Rate: Float, HoursWorked: Float, FixedAmount: Float)
     {
         super.init(empName: empName, empAge: empAge, Rate: Rate, HoursWorked: HoursWorked)
-        self.CommissionPerc = CommissionPerc
+        self.FixedAmount = FixedAmount
     }
     
     override func calcEarnings()
     {
         
     }
+    
 }
-
